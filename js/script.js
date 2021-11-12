@@ -1,9 +1,11 @@
 const btn = document.querySelector('.button-confirm');
-console.log(btn);
+const figure = document.querySelector('.figure-list');
+const color = document.querySelector('.input-color');
 
 btn.addEventListener('click', changeFigure);
 
 function changeFigure() {
   let box = document.querySelector('.box');
-  box.classList.add('oval');
+  box.className = `box ${figure.value}`;
+  box.style.background = `${color.value}`;
 }

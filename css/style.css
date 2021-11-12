@@ -25,14 +25,14 @@ body {
   width: 100%;
   padding: 5px;
   margin: 0 auto 25px;
-  border: 2px dotted #727272;
+  border: 2px solid #727272;
 }
 
 .input-color {
   width: 100%;
   padding: 5px;
   margin-bottom: 25px;
-  border: 2px dotted #727272;
+  border: 2px dashed #727272;
 }
 
 .button-confirm {
@@ -60,9 +60,9 @@ body {
 .oval,
 .square,
 .rectangle,
-.parallelogram {
+.egg {
   opacity: 1;
-  background: aqua;
+  background: #000;
 }
 .circle {
   width: 250px;
@@ -84,4 +84,12 @@ body {
 .rectangle {
   width: 400px;
   height: 250px;
+}
+
+.egg {
+  width: 180px;
+  height: 250px;
+  background: #000;
+  display: block;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
