@@ -78,8 +78,7 @@ body {
   margin: 25px auto;
   width: 400px;
   height: 250px;
-  background: url(/img/bg-image.jpg);
-  opacity: 0.1;
+  opacity: 0;
 }
 
 .square,
