@@ -1,11 +1,15 @@
 const btn = document.querySelector('.button-confirm');
 const figure = document.querySelector('.figure-list');
-const color = document.querySelector('.input-color');
+const box = document.querySelector('.box');
 
-btn.addEventListener('click', changeFigure);
+btn.addEventListener('click', changeColor);
+figure.addEventListener('change', changeSelect);
 
-function changeFigure() {
-  let box = document.querySelector('.box');
-  box.className = `box ${figure.value}`;
+function changeSelect(e) {
+  box.classList = `box ${e.target.value}`;
+}
+
+function changeColor() {
+  const color = document.querySelector('.input-color');
   box.style.background = `${color.value}`;
 }

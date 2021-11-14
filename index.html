@@ -11,19 +11,13 @@
     <div class="wrap">
       <form action="#">
         <select name="figure" class="figure-list">
-          <option value="empty">Select a figure</option>
-          <option value="circle">Circle</option>
-          <option value="oval">Oval</option>
+          <option value="empty" disabled selected>Select a figure</option>
           <option value="square">Square</option>
           <option value="rectangle">Rectangle</option>
-          <option value="egg">Egg</option>
+          <option value="circle">Circle</option>
         </select>
 
-        <input
-          type="text"
-          class="input-color"
-          placeholder="Write a color (example: red, #727272, rgb(255, 255, 255))"
-        />
+        <input type="color" class="input-color" />
 
         <button type="button" class="button-confirm">Confirm</button>
 

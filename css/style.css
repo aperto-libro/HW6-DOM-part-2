@@ -30,7 +30,7 @@ body {
 
 .input-color {
   width: 100%;
-  padding: 5px;
+  padding: 3px;
   margin-bottom: 25px;
   border: 2px dashed #727272;
 }
@@ -82,24 +82,11 @@ body {
   opacity: 0.1;
 }
 
-.circle,
-.oval,
 .square,
 .rectangle,
-.egg {
+.circle {
   opacity: 1;
   background: #000;
-}
-.circle {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-}
-
-.oval {
-  width: 400px;
-  height: 200px;
-  border-radius: 50%;
 }
 
 .square {
@@ -112,10 +99,8 @@ body {
   height: 250px;
 }
 
-.egg {
-  width: 180px;
+.circle {
+  width: 250px;
   height: 250px;
-  background: #000;
-  display: block;
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  border-radius: 50%;
 }
