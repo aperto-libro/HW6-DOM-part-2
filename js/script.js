@@ -6,6 +6,7 @@ btn.addEventListener('click', changeColor);
 figure.addEventListener('change', changeSelect);
 
 function changeSelect(e) {
+  box.style.display = 'block';
   box.classList = `box ${e.target.value}`;
 }
 

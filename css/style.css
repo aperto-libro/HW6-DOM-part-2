@@ -78,13 +78,12 @@ body {
   margin: 25px auto;
   width: 400px;
   height: 250px;
-  opacity: 0;
+  display: none;
 }
 
 .square,
 .rectangle,
 .circle {
-  opacity: 1;
   background: #000;
 }
 
